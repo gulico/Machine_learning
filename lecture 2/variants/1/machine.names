@@ -1,0 +1,95 @@
+1. Title: Relative CPU Performance Data 相对CPU性能数据
+
+2. Source Information
+   -- Creators: Phillip Ein-Dor and Jacob Feldmesser
+     -- Ein-Dor: Faculty of Management; Tel Aviv University; Ramat-Aviv; 
+        Tel Aviv, 69978; Israel
+   -- Donor: David W. Aha (aha@ics.uci.edu) (714) 856-8779   
+   -- Date: October, 1987
+源信息
+    -创作者：菲利普·爱因多（Phillip Ein-Dor）和雅各布·费尔德瑟（Jacob Feldmesser）
+      -Ein-Dor：管理学院； 特拉维夫大学； 拉马特·阿维夫（Ramat-Aviv）
+         特拉维夫，69978； 以色列
+    -捐助者：David W. Aha（aha@ics.uci.edu）（714）856-8779
+    -日期：1987年10月
+ 
+3. Past Usage:
+    1. Ein-Dor and Feldmesser (CACM 4/87, pp 308-317)
+       -- Results: 
+          -- linear regression prediction of relative cpu performance
+          -- Recorded 34% average deviation from actual values 
+    2. Kibler,D. & Aha,D. (1988).  Instance-Based Prediction of
+       Real-Valued Attributes.  In Proceedings of the CSCSI (Canadian
+       AI) Conference.
+       -- Results:
+          -- instance-based prediction of relative cpu performance
+          -- similar results; no transformations required
+    - Predicted attribute: cpu relative performance (numeric)
+
+过去的用法：
+     1. Ein-Dor和Feldmesser（CACM 4/87，第308-317页）
+        -结果：
+           -相对cpu性能的线性回归预测
+           -记录的实际值平均偏差为34％
+     2. D. Kibler ＆Aha，D。 （1988）。 基于实例的预测
+        实值属性。 CSCSI论文集（加拿大
+        AI）会议。
+        -结果：
+           -基于实例的相对cpu性能预测
+           -类似的结果; 无需转换
+     -预测属性：cpu相对性能（数字）
+
+4. Relevant Information:
+   -- The estimated relative performance values were estimated by the authors
+      using a linear regression method.  See their article (pp 308-313) for
+      more details on how the relative performance values were set.
+相关信息：
+    -估计的相对性能值由作者估算
+       使用线性回归方法。 参见他们的文章（pp 308-313）
+       有关如何设置相对效果值的更多详细信息。
+
+5. Number of Instances: 209 
+
+6. Number of Attributes: 10 (6 predictive attributes, 2 non-predictive, 
+                             1 goal field, and the linear regression's guess)
+
+7. Attribute Information:
+   1. vendor name: 30 供应商名称
+      (adviser, amdahl,apollo, basf, bti, burroughs, c.r.d, cambex, cdc, dec, 
+       dg, formation, four-phase, gould, honeywell, hp, ibm, ipl, magnuson, 
+       microdata, nas, ncr, nixdorf, perkin-elmer, prime, siemens, sperry, 
+       sratus, wang)
+   2. Model Name: many unique symbols型号名称：许多独特的符号
+   3. MYCT: machine cycle time in nanoseconds (integer)机器周期时间（以纳秒为单位）
+   4. MMIN: minimum main memory in kilobytes (integer)最小主内存
+   5. MMAX: maximum main memory in kilobytes (integer)最大主存
+   6. CACH: cache memory in kilobytes (integer)
+   7. CHMIN: minimum channels in units (integer)
+   8. CHMAX: maximum channels in units (integer)
+   9. PRP: published relative performance (integer)公布的相对表现
+  10. ERP: estimated relative performance from the original article (integer)根据原始文章估算的相对效果
+
+8. Missing Attribute Values: None
+
+9. Class Distribution: the class value (PRP) is continuously valued.
+   PRP Value Range:   Number of Instances in Range:
+   0-20               31
+   21-100             121
+   101-200            27
+   201-300            13
+   301-400            7
+   401-500            4
+   501-600            2
+   above 600          4
+
+Summary Statistics:
+	   Min  Max   Mean    SD      PRP Correlation
+   MCYT:   17   1500  203.8   260.3   -0.3071
+   MMIN:   64   32000 2868.0  3878.7   0.7949
+   MMAX:   64   64000 11796.1 11726.6  0.8630
+   CACH:   0    256   25.2    40.6     0.6626
+   CHMIN:  0    52    4.7     6.8      0.6089
+   CHMAX:  0    176   18.2    26.0     0.6052
+   PRP:    6    1150  105.6   160.8    1.0000
+   ERP:   15    1238  99.3    154.8    0.9665
+

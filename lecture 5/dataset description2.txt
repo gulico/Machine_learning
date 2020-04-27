@@ -1,0 +1,79 @@
+The data has been split into two groups:
+
+training set (train.csv)
+test set (test.csv)
+The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the 揼round truth? 
+for each passenger. Your model will be based on 揻eatures?like passengers?gender and class. You can also use feature engineering to create new features.
+
+The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. 
+It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+
+Data Dictionary
+Variable	Definition	Key
+survival	Survival	0 = No, 1 = Yes
+pclass		Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+sex		Sex	
+Age		Age in years	
+sibsp		# of siblings / spouses aboard the Titanic	
+parch		# of parents / children aboard the Titanic	
+ticket		Ticket number	
+fare		Passenger fare	
+cabin		Cabin number	
+embarked	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
+
+Variable Notes
+pclass: A proxy for socio-economic status (SES)
+1st = Upper
+2nd = Middle
+3rd = Lower
+
+age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+
+sibsp: The dataset defines family relations in this way...
+Sibling = brother, sister, stepbrother, stepsister
+Spouse = husband, wife (mistresses and fianc閟 were ignored)
+
+parch: The dataset defines family relations in this way...
+Parent = mother, father
+Child = daughter, son, stepdaughter, stepson
+Some children travelled only with a nanny, therefore parch=0 for them.
+
+数据已分为两组：
+
+训练集（train.csv）
+测试集（test.csv）
+训练集应用于构建机器学习模型。对于训练集，我们提供结果（也称为“全面事实”？
+每位乘客。您的模型将基于“特征”，例如乘客，性别和阶级。您还可以使用特征工程来创建新特征。
+
+应该使用测试集来查看模型在看不见的数据上的表现如何。对于测试集，我们不提供每位乘客的基本情况。
+预测这些结果是您的工作。对于测试集中的每个乘客，请使用您训练的模型来预测他们是否在泰坦尼克号沉没中幸存下来。
+
+数据字典
+变量定义键
+生存生存0 =否，1 =是
+pclass机票舱位1 = 1st，2 = 2nd，3 = 3rd
+性别
+年龄（岁）
+泰坦尼克号上的兄弟姐妹/配偶
+泰坦尼克号上的父母/孩子数
+机票机票号码
+票价旅客票价
+机舱编号
+登船的登船口C =瑟堡，Q =皇后镇，S =南安普敦
+
+可变音符
+pclass：社会经济地位（SES）的代理
+1st =上
+第二名=中级
+第三=更低
+
+年龄：如果小于1，则年龄是小数。如果估计了年龄，则采用xx.5的形式
+
+sibsp：数据集以这种方式定义家庭关系...
+兄弟姐妹=兄弟，姐妹，继兄弟，继姊
+配偶=丈夫，妻子（情妇和未婚夫被忽略）
+
+parch：数据集以这种方式定义家庭关系...
+父母=母亲，父亲
+孩子=女儿，儿子，继女，继子
+一些孩子只和一个保姆一起旅行，因此他们的parch = 0。

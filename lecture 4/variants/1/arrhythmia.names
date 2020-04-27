@@ -1,0 +1,223 @@
+1. Title: Cardiac Arrhythmia Database 心律失常数据库
+
+2. Sources:
+   (a) Original owners od Database:
+       -- 1. H. Altay Guvenir, PhD., 
+             Bilkent University,
+             Department of Computer Engineering and Information Science,
+             06533 Ankara, Turkey
+             Phone: +90 (312) 266 4133
+             Email: guvenir@cs.bilkent.edu.tr
+
+       -- 2. Burak Acar, M.S.,
+             Bilkent University, 
+             EE Eng. Dept. 
+             06533 Ankara, Turkey
+             Email: buraka@ee.bilkent.edu.tr
+
+       -- 2. Haldun Muderrisoglu, M.D., Ph.D., 
+             Baskent University, 
+             School of Medicine
+             Ankara, Turkey
+
+   (b) Donor: H. Altay Guvenir
+              Bilkent University,
+              Department of Computer Engineering and Information Science,
+              06533 Ankara, Turkey
+              Phone: +90 (312) 266 4133
+              Email: guvenir@cs.bilkent.edu.tr
+
+   (c) Date: January, 1998
+
+3. Past Usage:
+   1. H. Altay Guvenir, Burak Acar, Gulsen Demiroz, Ayhan Cekin
+      "A Supervised Machine Learning Algorithm for Arrhythmia Analysis"
+      Proceedings of the Computers in Cardiology Conference, 
+      Lund, Sweden, 1997.
+      
+      The aim is to determine the type of arrhythmia from 
+      the ECG recordings.
+过去的用法：
+    1. H. Altay Guvenir，Burak Acar，Gulsen Demiroz，Ayhan Cekin
+     “用于心律不齐分析的有监督的机器学习算法”，计算机会议在心脏病学会议上的应用，瑞典隆德，1997年。
+      
+       目的是根据心电图记录确定心律失常的类型。
+
+4. Relevant Information:
+     This database contains 279 attributes, 206 of which are linear
+     valued and the rest are nominal. 
+
+     Concerning the study of H. Altay Guvenir: "The aim is to distinguish
+     between the presence and absence of cardiac arrhythmia and to
+     classify it in one of the 16 groups. Class 01 refers to 'normal'
+     ECG classes 02 to 15 refers to different classes of arrhythmia
+     and class 16 refers to the rest of unclassified ones. For the
+     time being, there exists a computer program that makes such a
+     classification. However there are differences between the
+     cardiolog's and the programs classification. Taking the
+     cardiolog's as a gold standard we aim to minimise this difference
+     by means of machine learning tools."
+
+     The names and id numbers of the patients were recently 
+     removed from the database.
+
+相关信息：
+      该数据库包含279个属性，其中206个属性为线性值，其余为名义属性。
+
+      关于H. Altay Guvenir的研究：“目的是区分是否存在心律不齐，并将其分为16组之一。01类是“正常”心电图类别02到15是不同类别的心电图 心律失常的分类和类别16指的是其余未分类的类别，目前，有一个计算机程序可以进行这种分类，但是心律和程序分类之间存在差异，我们以心律为黄金标准 通过机器学习工具最大程度地减少这种差异。”
+
+      最近从数据库中删除了患者的姓名和身份证号码。
+
+5. Number of Instances 实例数: 452
+
+6. Number of Attributes 属性数量: 279
+
+7. Attribute Information:
+   -- Complete attribute documentation:
+      1 Age: Age in years , linear
+      2 Sex: Sex (0 = male; 1 = female) , nominal
+      3 Height: Height in centimeters , linear
+      4 Weight: Weight in kilograms , linear
+      5 QRS duration: Average of QRS duration in msec., linear
+      6 P-R interval: Average duration between onset of P and Q waves
+        in msec., linear
+      7 Q-T interval: Average duration between onset of Q and offset
+        of T waves in msec., linear
+      8 T interval: Average duration of T wave in msec., linear
+      9 P interval: Average duration of P wave in msec., linear
+     Vector angles in degrees on front plane of:, linear
+     10 QRS
+     11 T
+     12 P
+     13 QRST
+     14 J
+
+     15 Heart rate: Number of heart beats per minute ,linear
+    
+     Of channel DI:
+      Average width, in msec., of: linear
+      16 Q wave
+      17 R wave
+      18 S wave
+      19 R' wave, small peak just after R
+      20 S' wave
+
+      21 Number of intrinsic deflections, linear
+
+      22 Existence of ragged R wave, nominal
+      23 Existence of diphasic derivation of R wave, nominal
+      24 Existence of ragged P wave, nominal
+      25 Existence of diphasic derivation of P wave, nominal
+      26 Existence of ragged T wave, nominal
+      27 Existence of diphasic derivation of T wave, nominal
+
+     Of channel DII: 
+      28 .. 39 (similar to 16 .. 27 of channel DI)
+     Of channels DIII:
+      40 .. 51
+     Of channel AVR:
+      52 .. 63
+     Of channel AVL:
+      64 .. 75
+     Of channel AVF:
+      76 .. 87
+     Of channel V1:
+      88 .. 99
+     Of channel V2:
+      100 .. 111
+     Of channel V3:
+      112 .. 123
+     Of channel V4:
+      124 .. 135
+     Of channel V5:
+      136 .. 147
+     Of channel V6:
+      148 .. 159
+
+     Of channel DI:
+      Amplitude , * 0.1 milivolt, of
+      160 JJ wave, linear
+      161 Q wave, linear
+      162 R wave, linear
+      163 S wave, linear
+      164 R' wave, linear
+      165 S' wave, linear
+      166 P wave, linear
+      167 T wave, linear
+      
+      168 QRSA , Sum of areas of all segments divided by 10,
+          ( Area= width * height / 2 ), linear
+	QRSA，所有段的面积之和除以10，
+           （面积=宽度*高度/ 2），线性
+      169 QRSTA = QRSA + 0.5 * width of T wave * 0.1 * height of T
+          wave. (If T is diphasic then the bigger segment is
+          considered), linear
+	QRSTA = QRSA + 0.5 * T波的宽度* 0.1 * T波的高度。 （如果T是双相的，则考虑更大的部分），线性
+
+     Of channel DII:
+      170 .. 179
+     Of channel DIII:
+      180 .. 189
+     Of channel AVR:
+      190 .. 199
+     Of channel AVL:
+      200 .. 209
+     Of channel AVF:
+      210 .. 219
+     Of channel V1:
+      220 .. 229
+     Of channel V2:
+      230 .. 239
+     Of channel V3:
+      240 .. 249
+     Of channel V4:
+      250 .. 259
+     Of channel V5:
+      260 .. 269
+     Of channel V6:
+      270 .. 279
+      
+8. Missing Attribute Values: Several.  Distinguished with '?'.
+缺少属性值：多个。 以'？'区分
+
+9. Class Distribution:
+       Database:  Arrhythmia
+       
+       Class code :   Class   :                       Number of instances:
+       01             Normal				          245
+       02             Ischemic changes (Coronary Artery Disease)   44
+       03             Old Anterior Myocardial Infarction           15
+       04             Old Inferior Myocardial Infarction           15
+       05             Sinus tachycardy			           13
+       06             Sinus bradycardy			           25
+       07             Ventricular Premature Contraction (PVC)       3
+       08             Supraventricular Premature Contraction	    2
+       09             Left bundle branch block 		            9	
+       10             Right bundle branch block		           50
+       11             1. degree AtrioVentricular block	            0	
+       12             2. degree AV block		            0
+       13             3. degree AV block		            0
+       14             Left ventricule hypertrophy 	            4
+       15             Atrial Fibrillation or Flutter	            5
+       16             Others				           22
+
+班级分布：
+       数据库：心律不齐
+       
+       类代码：类：实例数：
+       01普通245
+       02缺血性改变（冠状动脉疾病）44
+       03旧的前部心肌梗塞15
+       04老下心肌梗塞15
+       05窦性心动过速13
+       06窦性心动过缓25
+       07室性早搏（PVC）3
+       08室上性早搏2
+       09左束支传导阻滞9
+       10右束支座50
+       11 1.房室传导阻滞0
+       12 2.度数AV块0
+       13 3.度数AV块0
+       14左心室肥大4
+       15心房颤动或颤动5
+       16其他22
