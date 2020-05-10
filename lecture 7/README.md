@@ -1,4 +1,4 @@
-Practice work description
+# Practice work description
 
 In the 6th lab you will continue to investigate scikit-learn library. In this practice work you will deal with 
 probabilistic classification models in scikit-learn.

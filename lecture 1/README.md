@@ -1,4 +1,5 @@
-The first practice task statement:
+# The first practice task statement:
+
 1. Install Python 3.7 and Anaconda (www.anaconda.com).
 2. Try to open Jupiter notebook (ipynb-file) attached to this class.
 3. Read notebook text and try to run code in it.
@@ -9,15 +10,3 @@ The first practice task statement:
 		- Convert this sequence of numbers into 3x3 numpy matrix A where each element of previous array is a row and one digit of each number is a column. For example, for this sequence [123, 456, 789] the matrix will be equal to [[1,2,3],[4,5,6],[7,8,9]]
 		- Read the NumPy documentation and compute the reversed matrix A (if you can reverse it), transposed matrix A, multiplication of matrix A and matrix A^(-1) or matrix A and transposed A, create a submatrix consists of the first and third rows of matrix A
 	- Send your notebook to my email (avplatonov@itmo.ru) with subject "ML Course in HDU, first lab"
-
-第一个练习任务说明：
-1.安装Python 3.7和Anaconda（www.anaconda.com）。
-2.尝试打开此课程所附的Jupiter笔记本（ipynb文件）。
-3.阅读笔记本文本并尝试在其中运行代码。
-4.个人任务：
--创建自己的木星笔记本
--编写使这项工作有效的代码：
--获取您的DingTalk号码（将其手动写入笔记本）并分成三位数的数字序列。具有两位数字的尾巴应丢弃。例如对于ID = 12345678900，此代码应返回序列[123、456、789]。
--将这个数字序列转换成3x3 numpy矩阵A，其中前一个数组的每个元素是一行，每个数字的一​​位是列。例如，对于此序列[123，456，789]，矩阵将等于[[1,2,3]，[4,5,6]，[7,8,9]]
--阅读NumPy文档并计算逆矩阵A（如果可以逆转换），转置矩阵A，矩阵A与矩阵A ^（-1）或矩阵A与转置A的乘积，创建由第一个和矩阵A的第三行
--将您的笔记本发送至我的电子邮件（avplatonov@itmo.ru），主题为“ HDU ML课程，第一个实验室”

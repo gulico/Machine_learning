@@ -1,4 +1,4 @@
-Practice work description
+# Practice work description
 
 In the 4th lab you will continue to investigate scikit-learn library. In this practice work you will deal with 
 linear models in scikit-learn.
@@ -25,31 +25,3 @@ Have a productive work!
 
 P.S. Please, note that this week you will receive materials for the intermedia test. 
 They will be sent after Thursday's consultation class. Your answer also should be sent before the deadline.
-
-实践工作说明
-
-在第四实验中，您将继续研究scikit-learn库。在本练习中，您将处理
-scikit学习中的线性模型。
-
-您的练习作业的变体放在“变体”目录中，xls文件包含变体的编号。
-
-Taks声明：
-1.调查变体的功能：
--绘制特征直方图
--对于分类任务，绘制特征的散点图矩阵。对于回归任务，请尝试分析答案行为
-在特征值与回归模型答案之间的关系图。
--撰写有关调查的评论：哪些功能对于解决问题最有用，为什么？
-要素在数据中的分布方式。
-2.在scikit中阅读有关线性模型的文章以学习[linear_models.pdf]。这是《 Scikit-Learn用户指南》的一部分。如果你想
-如果更深入地研究该库或机器学习模型，则可以阅读原始教科书。
-3.在scikit-learn中研究线性模型的API并为您的任务训练模型。
-4.估计培训结果。
-5.尝试更改训练参数以获得更好的效果。
-6.在笔记本上写一份有关实验结果的简短报告。
-
-不要忘记这项工作的截止日期。您应该在最近的星期五晚上（北京时间17：00，17.04）之前发送。
-
-有成果！
-
-附言请注意，本周您将收到有关中间测试的材料。
-他们将在周四的咨询课后发送。您的答案也应在截止日期之前发送。
